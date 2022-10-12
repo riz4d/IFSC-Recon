@@ -10,7 +10,7 @@ app=Client('IFSC-Recon',
 
 @app.on_message(filters.command('start'))
 async def start_msg(client,message):
-    await message.reply('**Hey '+message.from_user.first_name+"  🖐**\n\n__I'm IFSC Recon Bot, I can retrive information from IFSC Code\n\nDev : @riz4d__")
+    await message.reply('**Hey '+message.from_user.first_name+"  🖐**\n\n__I'm IFSC Recon Bot, I can retrive information from IFSC Code by Just senting here the IFSC Code\n\nDev : @riz4d__")
     
 @app.on_message(filters.command('help'))
 async def help_msg(client,message):
