@@ -7,7 +7,7 @@ Pyrogram telegram bot, Which helps you to retrive information from IFSC Code
 
  ### variables
  
- ##### Open Config.py using a text editor:
+ ##### Fork this Repository and Open Config.py edit the values shown below:
 
 ```
 put here the values :
