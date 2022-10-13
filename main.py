@@ -26,7 +26,7 @@ async def ifsc_data(client,message):
     
    query=message.text.upper()
    try:
-    url_request=req.get(url+query)
+    url_request=req.get(base_url+query)
     url_json=url_request.json()
     
     #datas
